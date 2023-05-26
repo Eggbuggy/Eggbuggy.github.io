@@ -1,0 +1,136 @@
+body {
+	background-color: #fafefe;
+	margin:0;
+	font-family: monospace;
+}
+html{
+	margin:0px;
+}
+.header{ 
+	background-color: #9bd6d2;
+	position: top;
+	padding-right: 100%;
+	padding-bottom: 10px;
+	display: grid;
+	grid-template-columns: 50px auto;
+	position: fixed;
+	margin-top:0px;
+}
+#headertext{
+	margin: 0;
+	color:#fafefe;
+	position: fixed;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-family:monospace;
+	
+}
+#logoheader{
+	margin-left:20px;
+	margin-top: 10px;
+}
+#menuicon{
+	margin-right: 5%;
+	margin-left:90%;
+	margin-top: 15px;
+	position: fixed;
+}
+.headerplz{ 
+	background-color: #9bd6d2;
+	position: top;
+	padding-right: 100%;
+	padding-bottom: 10px;
+	display: grid;
+	grid-template-columns: 50px auto;
+	position: fixed;
+	margin-top:0px;
+}
+#headertextplz{
+	margin: 0;
+	color:#fafefe;
+	position: fixed;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-family:monospace;
+}
+.velkommenindex {
+	position: fixed;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 50px;
+	color: #fafefe;
+	border-radius: 25px;
+	background:#9bd6d2;
+	padding: 20px; 
+	width: 290px;
+	height: 150px;  
+}
+#menuclose{
+	margin-right: 5%;
+	margin-left:90%;
+	margin-top: 15px;
+	position: fixed;
+}
+.Options{
+	position:fixed;
+	margin-top: 100px;
+	margin-left:28%;
+	text-align: center;
+}
+.Options a{
+	text-decoration: none;
+	font-family:monospace;
+	font-size: 40px;
+	color: #333333;
+	background-color:#fafefe;
+}
+.options a:hover{
+	background-color: #e6f7f6;
+	animation-name: menuhvr;
+	animation-duration: 7ms;
+}
+@keyframes menuhvr{
+	0% {background-color: #fafefe;}
+	100% {background-color: #e6f7f6;}
+}
+.Options div{
+	margin-bottom:40px;
+}
+.Options p{
+	font-family: monospace;
+	font-size: 40px;
+	color: #333333;
+	background-color: #e6f7f6;
+}
+mainPH{
+	margin-top:90px;
+}
+#mainPH-header{
+	margin-top: 50px;
+	text-align:center;
+	color:#9bd6d2;
+	font-size:40px;
+}
+#mainPH-infoh{
+	text-align: center;
+}
+.textPH{
+	text-align:center;
+}
+.PHexample{
+	margin-top:50px;
+	margin-left:20%;
+}
+.foot{
+	position: bottom;
+	background-color: #e6f7f6;
+	padding:10px;
+}
+.foot{
+	text-align:center;
+	margin-top:80px;
+}
+.linkfoot{
+	color:#333333;
+	text-decoration: none;
+}
