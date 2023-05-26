@@ -52,13 +52,13 @@ html{
 }
 #menuicon{
 	margin-right: 5%;
-	margin-left:93%;
+	margin: left 90%;
 	margin-top: 30px;
 	position: fixed;
 }
 #menuclose{
 	margin-right: 5%;
-	margin-left:93%;
+	margin-left:90%;
 	margin-top: 30px;
 	position: fixed;
 }
