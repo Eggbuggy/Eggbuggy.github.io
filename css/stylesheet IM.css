@@ -1,12 +1,14 @@
 body {
 	background-color: #ffffff;
-	margin:0;
+	margin: 0;
 	font-family: monospace;
 }
-html{
-	margin:0px;
+
+html {
+	margin: 0px;
 }
-.header{ 
+
+.header {
 	background-color: #9bd6d2;
 	position: top;
 	padding-right: 100%;
@@ -14,19 +16,21 @@ html{
 	display: grid;
 	grid-template-columns: 50px auto;
 	position: fixed;
-	margin-top:0px;
+	margin-top: 0px;
 }
-#headertext{
+
+#headertext {
 	margin: 0;
 	font-size: 70px;
-	color:#fafefe;
+	color: #fafefe;
 	position: fixed;
 	margin-left: 130px;
 	margin-top: 20px;
-	font-family:monospace;
-	
+	font-family: monospace;
+
 }
-.headerplz{ 
+
+.headerplz {
 	background-color: #9bd6d2;
 	padding-right: 100%;
 	padding-bottom: 10px;
@@ -34,151 +38,185 @@ html{
 	grid-template-columns: 50px auto;
 	position: fixed;
 	position: top;
-	margin-top:0px;
+	margin-top: 0px;
 	z-index: 1;
 }
-#headertextplz{
+
+#headertextplz {
 	margin: 0;
-	color:#fafefe;
+	color: #fafefe;
 	font-size: 70px;
 	position: fixed;
 	margin-left: 130px;
 	margin-top: 20px;
-	font-family:monospace;
+	font-family: monospace;
 }
-#logoheader{
-	margin-left:20px;
+
+#logoheader {
+	margin-left: 20px;
 	margin-top: 10px;
 }
-#menuicon{
+
+#menuicon {
 	margin-right: 5%;
 	margin-left: 90%;
 	margin-top: 30px;
 	position: fixed;
 }
-#menuclose{
+
+#menuclose {
 	margin-right: 5%;
-	margin-left:90%;
+	margin-left: 90%;
 	margin-top: 30px;
 	position: fixed;
 }
-#mainpictureindex{
-	margin-top:100px;
-}
-.underHeaderPic{
+
+#mainpictureindex {
 	margin-top: 100px;
 }
-#noenOppg{
+
+.underHeaderPic {
+	margin-top: 100px;
+}
+
+#noenOppg {
 	font-size: 40px;
 	margin-left: 20%;
-	border:10px, solid #9bd6d2;
+	border: 10px, solid #9bd6d2;
 	border-radius: 60px;
-	padding:20px;
+	padding: 20px;
 }
-.phcatex{
-	background-color:#e6f7f6;
+
+.phcatex {
+	background-color: #e6f7f6;
 	padding: 30px;
 }
-#catex{
+
+#catex {
 	margin-left: 20%;
 	font-size: 30px;
 }
-#edcat{
+
+#edcat {
 	margin-left: 50%;
 }
-.Options{
-	position:fixed;
+
+.Options {
+	position: fixed;
 	margin-top: 100px;
 	margin-left: 30%;
 	text-align: center;
 }
-.Options a{
+
+.Options a {
 	text-decoration: none;
-	font-family:monospace;
+	font-family: monospace;
 	font-size: 40px;
 	color: #333333;
-	background-color:#fafefe;
+	background-color: #fafefe;
 }
-.options a:hover{
+
+.options a:hover {
 	background-color: #e6f7f6;
 	animation-name: menuhvr;
 	animation-duration: 7ms;
 }
-@keyframes menuhvr{
-	0% {background-color: #fafefe;}
-	100% {background-color: #e6f7f6;}
+
+@keyframes menuhvr {
+	0% {
+		background-color: #fafefe;
+	}
+
+	100% {
+		background-color: #e6f7f6;
+	}
 }
-.Options div{
-	margin-bottom:40px;
+
+.Options div {
+	margin-bottom: 40px;
 }
-.Options p{
+
+.Options p {
 	font-family: monospace;
 	font-size: 40px;
 	color: #333333;
 	background-color: #e6f7f6;
 }
-mainPH{
-	margin-top:100px;
+
+mainPH {
+	margin-top: 100px;
 }
-.mainPH{
+
+.mainPH {
 	position: relative;
 	top: 150px;
 	min-height: 600px;
 }
-#mainPH-header{
+
+#mainPH-header {
 	margin-top: 0px;
-	text-align:center;
-	color:#9bd6d2;
-	font-size:40px;
+	text-align: center;
+	color: #9bd6d2;
+	font-size: 40px;
 }
-#mainPH-infoh{
+
+#mainPH-infoh {
 	text-align: center;
 }
-.textPH{
-	text-align:center;
+
+.textPH {
+	text-align: center;
 	z-index: -1;
 }
-.PHexample{
-	margin-top:50px;
-	margin-left:20%;
+
+.PHexample {
+	margin-top: 50px;
+	margin-left: 20%;
 	margin-bottom: 70px;
 }
-#IMnett{
+
+#IMnett {
 	margin-top: 90px;
 	font-size: 25px;
 	margin-left: 40%;
 	text-decoration: none;
 	color: #333333;
 	background-color: #e6f7f6;
-	padding:10px;
+	padding: 10px;
 }
-#nettb{
+
+#nettb {
 	margin-top: 200px;
 	font-size: 25px;
 	text-decoration: none;
 	color: #333333;
 	background-color: #e6f7f6;
-	padding:10px;
+	padding: 10px;
 }
-.sustainKP{
-	margin-left:30%;
+
+.sustainKP {
+	margin-left: 30%;
 	margin-top: 30px;
 }
-#grandpa{
+
+#grandpa {
 	margin-left: 15%;
 }
-.foot{
+
+.foot {
 	position: bottom;
 	background-color: #e6f7f6;
-	padding:10px;
+	padding: 10px;
 	padding-bottom: 300px;
 	position: relative;
 }
-.foot{
-	text-align:center;
-	margin-top:100px;
+
+.foot {
+	text-align: center;
+	margin-top: 100px;
 }
-.linkfoot{
-	color:#333333;
+
+.linkfoot {
+	color: #333333;
 	text-decoration: none;
 }
